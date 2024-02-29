@@ -1,17 +1,16 @@
 import { ArrowRight } from 'lucide-react';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { Dispatch, SetStateAction, useEffect, useRef, useState } from 'react';
 
 interface CustomSelectProps {
   options: string[];
   value: string;
-  onChange: (value: string) => void;
+  onChange: Dispatch<SetStateAction<string>>;
 }
 
-const Select: React.FC<CustomSelectProps> = ({ options, value, onChange }) => {
+const Select = ({ options, value, onChange }: CustomSelectProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const selectRef = useRef<HTMLDivElement>(null);
-  const handleOptionClick = (e: React.MouseEvent<HTMLLIElement>, option: string) => {
-    e.stopPropagation();
+  const handleOptionClick = (option: string) => {
     onChange(option);
     setIsOpen(false);
   };
@@ -49,7 +48,7 @@ const Select: React.FC<CustomSelectProps> = ({ options, value, onChange }) => {
                 'flex h-[44px] cursor-pointer items-center justify-between border-b border-[#BAC1CC]/10 bg-[#BAC1CC]/10 px-6 uppercase transition-colors last:border-none hover:border-[#D35DEB]/10'
               }
               key={index}
-              onClick={(e) => handleOptionClick(e, option)}
+              onClick={() => handleOptionClick(option)}
             >
               <p>{option}</p>
               <ArrowRight className={'size-4'} />
