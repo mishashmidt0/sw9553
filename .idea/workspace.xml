@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0190a0b-9b82-42a5-94fd-6060d7ff24d5" name="Changes" comment="end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/select.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/custom-select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/custom-select.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/games/[providerCategory]/[seoTitle]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/games/[providerCategory]/[seoTitle]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mishashmidt0"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mishashmidt0&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
@@ -45,9 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2d2xZK1X5XftRZGdcJAR95BYCQh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/dev/projects/porttie-frontend",
+    "last_opened_file_path": "D:/dev/projects/sw9553",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,7 +90,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709220028746</updated>
-      <workItem from="1709220029789" duration="11248000" />
+      <workItem from="1709220029789" duration="12085000" />
+      <workItem from="1709272105384" duration="9000" />
+      <workItem from="1709274437109" duration="207000" />
     </task>
     <servers />
   </component>

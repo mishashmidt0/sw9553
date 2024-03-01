@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { fetchGamesData } from '@/src/query/game';
 
@@ -46,7 +47,18 @@ export default async function Page({ params }: { params: Props }) {
         <p>
           <b>Список категорий игры:</b>
         </p>
-        <p>{currentGame?.categories?.join(', ')}</p>
+        <ul className={'flex gap-2'}>
+          {currentGame?.categories?.map((category) => (
+            <li key={category}>
+              <Link
+                href={`/games/${category}/${currentGame.seo_title}`}
+                className={'transition-colors hover:text-blue-500'}
+              >
+                {category}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
